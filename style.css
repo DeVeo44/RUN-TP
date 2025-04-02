@@ -59,10 +59,21 @@ body {
 .container1 {
   display: grid;
   grid-template-columns: 30% 70%;
+  padding-top: 20px;
 }
 .middle-left img {
-  max-width: 200px;
-  max-height: 200px;
+  height: 250px;
+  width: 300px;
+}
+.middle-right {
+  padding-top: 50px;
+  padding-left: 20px;
+}
+.middle-right h2 {
+  font-size: 2rem;
+  font-weight: lighter;
+  color: rgb(17, 17, 17);
+  padding-bottom: 20px;
 }
 .container2 {
   display: grid;
