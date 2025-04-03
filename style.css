@@ -24,7 +24,7 @@ body {
   padding-bottom: 30px;
 }
 .banner-left p {
-  font-size: 1.5rem;
+  font-size: 1rem;
   font-weight: lighter;
   color: rgb(17, 17, 17);
   padding-bottom: 20px;
@@ -45,7 +45,6 @@ body {
   overflow: hidden;
   height: 100vh;
   width: 100%;
-  position: relative;
   background-color: red;
 }
 .banner-right img {
@@ -54,6 +53,7 @@ body {
   object-fit: cover;
   object-position: right center;
   display: block;
+  position: relative;
 }
 
 .container1 {
@@ -67,7 +67,7 @@ body {
 }
 .middle-right {
   padding-top: 50px;
-  padding-left: 20px;
+  padding-left: 40px;
 }
 .middle-right h2 {
   font-size: 2rem;
@@ -75,11 +75,49 @@ body {
   color: rgb(17, 17, 17);
   padding-bottom: 20px;
 }
+.middle-right p {
+  font-weight: lighter;
+  color: rgb(17, 17, 17);
+  padding-bottom: 20px;
+}
+.middle-right button {
+  background-color: transparent;
+  color: rgb(12, 11, 11);
+  padding: 10px 20px;
+  border: 2px solid rgb(160, 160, 160);
+  border-radius: 30px;
+  font-size: 1rem;
+  cursor: pointer;
+}
 .container2 {
   display: grid;
   grid-template-columns: 70% 30%;
 }
+.container2-left h2 {
+  padding-top: 30px;
+  padding-left: 40px;
+  font-size: 2rem;
+  font-weight: lighter;
+  color: rgb(17, 17, 17);
+  padding-bottom: 20px;
+}
+.container2-left p {
+  padding-left: 40px;
+  font-weight: lighter;
+  color: rgb(17, 17, 17);
+  padding-bottom: 20px;
+}
+.container2-left button {
+  background-color: transparent;
+  color: rgb(12, 11, 11);
+  padding: 10px 20px;
+  border: 2px solid rgb(160, 160, 160);
+  border-radius: 30px;
+  font-size: 1rem;
+  cursor: pointer;
+}
 .container2-right img {
-  max-width: 200px;
-  max-height: 200px;
+  height: 250px;
+  width: 300px;
+  position: absolute;
 }
