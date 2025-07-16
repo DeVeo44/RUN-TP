@@ -145,10 +145,51 @@ footer::before {
   background: #ccc;
   left: 50%;
   transform: translateX(-50%);
+  top: 0;
 }
 footer ul {
   display: flex;
   justify-content: space-between;
   width: 33%;
   margin: 0 auto;
+  min-width: 300px;
+}
+footer a {
+  display: inline-block;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #ccc;
+  border-radius: 50px;
+  width: 44px;
+  height: 44px;
+  transition: 0.3s;
+}
+/******Responsive Styles******/
+@media screen and (max-width: 650px) {
+  header,
+  .section-1,
+  .section-2 {
+    display: block;
+  }
+  header {
+    height: auto;
+  }
+  .img-banner {
+    margin-top: 30px;
+    height: 50vh;
+  }
+  .container {
+    padding: 15px;
+  }
+  footer ul {
+    min-width: 200px;
+  }
+  footer a {
+    width: 36px;
+    height: 36px;
+  }
+  footer i {
+    font-style: 0.7rem;
+  }
 }
